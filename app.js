@@ -44,7 +44,7 @@ const officeList = [{
             LastUpdated: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
         },
         Phone: [{
-            "PhoneType": "200",
+            "PhoneType": "100",
             "Phone": "(123) 456-7898",
             "PhoneExtension": "(11116878)"
         }],
@@ -63,7 +63,7 @@ const officeList = [{
             LastUpdated: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
         },
         Phone: [{
-            "PhoneType": "200",
+            "PhoneType": "100",
             "Phone": "(123) 456-7898",
             "PhoneExtension": "(11116878)"
         }],
