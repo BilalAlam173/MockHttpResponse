@@ -4,7 +4,7 @@ const officeList = [{
         Info: {
             Name: "Random Office",
             LastUpdated: {
-                Date: "10/04/2017",
+                Date: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
                 Time: "11:37 AM",
             },
         },
@@ -26,7 +26,7 @@ const officeList = [{
         Info: {
             Name: "Random Office",
             LastUpdated: {
-                Date: "10/04/2017",
+                Date: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
                 Time: "11:37 AM",
             },
         },
@@ -48,7 +48,7 @@ const officeList = [{
         Info: {
             Name: "Random Office",
             LastUpdated: {
-                Date: "10/04/2017",
+                Date: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
                 Time: "11:37 AM",
             },
         },
@@ -70,7 +70,7 @@ const officeList = [{
         Info: {
             Name: "Random Office",
             LastUpdated: {
-                Date: "10/04/2017",
+                Date: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
                 Time: "11:37 AM",
             },
         },
