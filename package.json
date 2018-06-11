@@ -1,0 +1,22 @@
+{
+  "name": "mockdata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BilalAlam173/MockHttpResponse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BilalAlam173/MockHttpResponse/issues"
+  },
+  "homepage": "https://github.com/BilalAlam173/MockHttpResponse#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
