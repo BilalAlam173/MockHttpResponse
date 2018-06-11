@@ -3,10 +3,7 @@ const app = express()
 const officeList = [{
         Info: {
             Name: "Random Office",
-            LastUpdated: {
-                Date: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                Time: "11:37 AM",
-            },
+            LastUpdated: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
         },
         Phone: [{
             "PhoneType": "200",
@@ -25,10 +22,7 @@ const officeList = [{
     {
         Info: {
             Name: "Random Office",
-            LastUpdated: {
-                Date: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                Time: "11:37 AM",
-            },
+            LastUpdated: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
         },
         Phone: [{
             "PhoneType": "200",
@@ -47,10 +41,7 @@ const officeList = [{
     {
         Info: {
             Name: "Random Office",
-            LastUpdated: {
-                Date: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                Time: "11:37 AM",
-            },
+            LastUpdated: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
         },
         Phone: [{
             "PhoneType": "200",
@@ -69,10 +60,7 @@ const officeList = [{
     {
         Info: {
             Name: "Random Office",
-            LastUpdated: {
-                Date: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                Time: "11:37 AM",
-            },
+            LastUpdated: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
         },
         Phone: [{
             "PhoneType": "200",
