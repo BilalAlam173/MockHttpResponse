@@ -72,7 +72,7 @@ app.use(function (req, res, next) {
     next();
   });
 app.get('/officeList', (req, res) => {
-    res.json(officeList);
+    res.json({Data:{Results:officeList}});
 })
 
 app.listen(process.env.PORT || 3000, () => console.log('Example app listening on port ' + process.env.PORT || 3000))
