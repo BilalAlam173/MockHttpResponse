@@ -299,6 +299,8 @@ module.exports = {
                     "LastLogin": new Date(Date.UTC(96, 1, 2, 3, 4, 5))
                 },
                 "Status": 100,
+                "Email": "random@email.com",
+                "Role": "Dispatcher",
                 "TotalBooked": 0,
                 "TotalLoads": 0,
             },
@@ -311,6 +313,8 @@ module.exports = {
                     "LastLogin": new Date(Date.UTC(96, 1, 2, 3, 4, 5))
                 },
                 "Status": 100,
+                "Email": "random@email.com",
+                "Role": "Dispatcher",
                 "TotalBooked": 0,
                 "TotalLoads": 0,
             },
@@ -322,6 +326,8 @@ module.exports = {
                     "ModifiedDate": "2018-06-13T09:52:30",
                     "LastLogin": new Date(Date.UTC(96, 1, 2, 3, 4, 5))
                 },
+                "Email": "random@email.com",
+                "Role": "Dispatcher",
                 "Status": 100,
                 "TotalBooked": 0,
                 "TotalLoads": 0,
@@ -334,6 +340,8 @@ module.exports = {
                     "ModifiedDate": "2018-06-13T09:52:30",
                     "LastLogin": new Date(Date.UTC(96, 1, 2, 3, 4, 5))
                 },
+                "Email": "random@email.com",
+                "Role": "Dispatcher",
                 "Status": 100,
                 "TotalBooked": 0,
                 "TotalLoads": 0,
