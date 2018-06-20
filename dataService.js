@@ -328,7 +328,7 @@ module.exports = {
                 },
                 "Email": "random@email.com",
                 "Role": "Dispatcher",
-                "Status": 100,
+                "Status": 300,
                 "TotalBooked": 0,
                 "TotalLoads": 0,
             },
@@ -342,7 +342,7 @@ module.exports = {
                 },
                 "Email": "random@email.com",
                 "Role": "Dispatcher",
-                "Status": 100,
+                "Status": 200,
                 "TotalBooked": 0,
                 "TotalLoads": 0,
             }
