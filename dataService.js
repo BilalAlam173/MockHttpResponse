@@ -116,31 +116,31 @@ module.exports = {
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 10
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 20
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 30
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 40
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 50
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 60
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 60
                 }
             ],
             "LoadsTimeline": [{
@@ -149,31 +149,31 @@ module.exports = {
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 30
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 32
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 35
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 37
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 39
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 41
                 },
                 {
                     "Date": new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
-                    "Value": 0
+                    "Value": 45
                 }
             ]
         }
