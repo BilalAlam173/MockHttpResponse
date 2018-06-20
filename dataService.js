@@ -85,13 +85,13 @@ module.exports = {
             "Name": "Random Office",
             "ImageUrl": null,
             "Email": "email@email.com",
-            "Phone": [{
+            "Phone": {
                 "Id": 21,
                 "Phone": "(123) 456-7898",
                 "PhoneType": "200",
                 "PhoneExtension": "(11116878)",
                 "Source": null
-            }],
+            },
             Address: {
                 Street: "67 Butler Ave.",
                 City: "Wakefield",
