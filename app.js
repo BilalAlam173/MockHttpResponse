@@ -1,6 +1,10 @@
 const express = require('express')
 const app = express();
 const dataService = require('./dataService');
+const bodyParser = require('body-parser')
+
+app.use(bodyParser.json());
+
 app.use(function (req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type,Cache-Control,authorization,x-frame-options, Accept");
@@ -23,6 +27,6 @@ app.get('/api/office/users', (req, res) => {
     res.json(dataService.formatResponseForList(dataService.getOfficeUsers()));
 });
 app.post('/api/load/sources', (req, res) => {
-    res.json(dataService.formatResponseForList(dataService.getSources()));
+    res.json(dataService.formatResponseForList(dataService.getSources(req.body)));
 });
 app.listen(process.env.PORT || 3000, () => console.log('Example app listening on port ' + process.env.PORT || 3000))
