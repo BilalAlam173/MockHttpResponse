@@ -348,6 +348,215 @@ module.exports = {
             }
         ]
     },
+    /*@params: {
+        100:num of objects,
+        200:num of objects,
+        300:num of objects,
+        400:num of objects,
+        500:num of objects,
+        600:num of objects,
+        650:num of objects,
+        700:num of objects,
+        800:num of objects,
+        550:num of objects,
+    }
+     * 
+     */
+    getSources: (params) => {
+        let sources = [];
+
+        for (let key in params) {
+            switch (key) {
+                case '100':
+                    {
+                        if (!isNaN(params[key])) {
+                            for (let i = 0; i < params[key]; i++) {
+                                sources.push({
+                                    Type: "Backhaul",
+                                    TypeCode: 100,
+                                    LoadId: 123,
+                                    Destination: {
+                                        Street: "67 Butler Ave.",
+                                        City: "Wakefield",
+                                        State: "MA",
+                                        ZipCode: "21009"
+                                    },
+                                    TargetDeliveryDate: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
+                                })
+                            }
+                        }
+                        break;
+                    }
+                case '200':
+                    {
+                        if (!isNaN(params[key])) {
+                            for (let i = 0; i < params[key]; i++) {
+                                sources.push({
+                                    Type: "Inbound",
+                                    TypeCode: 200,
+                                    LoadId: 123,
+                                    Destination: {
+                                        Street: "67 Butler Ave.",
+                                        City: "Wakefield",
+                                        State: "MA",
+                                        ZipCode: "21009"
+                                    },
+                                    TargetDeliveryDate: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
+                                })
+                            }
+                        }
+                        break;
+                    }
+                case '300':
+                    {
+                        if (!isNaN(params[key])) {
+                            for (let i = 0; i < params[key]; i++) {
+                                sources.push({
+                                    Type: "DAT",
+                                    TypeCode: 300,
+                                    Origin: {
+                                        Street: "67 Butler Ave.",
+                                        City: "Wakefield",
+                                        State: "MA",
+                                        ZipCode: "21009"
+                                    },
+                                    Equipment: "test",
+                                    PhoneNumber: 12345678910,
+                                    AvailableDate: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
+                                    Destination: {
+                                        Street: "67 Butler Ave.",
+                                        City: "Wakefield",
+                                        State: "MA",
+                                        ZipCode: "21009"
+                                    },
+                                })
+                            }
+                        }
+                        break;
+                    }
+                case '400':
+                    {
+                        if (!isNaN(params[key])) {
+                            for (let i = 0; i < params[key]; i++) {
+                                sources.push({
+                                    Type: "Truckstop",
+                                    TypeCode: 400,
+                                    Origin: {
+                                        Street: "67 Butler Ave.",
+                                        City: "Wakefield",
+                                        State: "MA",
+                                        ZipCode: "21009"
+                                    },
+                                    Equipment: "test",
+                                    PhoneNumber: 12345678910,
+                                    AvailableDate: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
+                                    Destination: {
+                                        Street: "67 Butler Ave.",
+                                        City: "Wakefield",
+                                        State: "MA",
+                                        ZipCode: "21009"
+                                    },
+                                })
+                            }
+                        }
+                        break;
+                    }
+                case '500':
+                    {
+                        if (!isNaN(params[key])) {
+                            for (let i = 0; i < params[key]; i++) {
+                                sources.push({
+
+                                    Type: "Historical",
+                                    TypeCode: 500,
+                                    LoadCount: 123,
+                                    AverageRate: 123
+                                })
+                            }
+                        }
+                        break;
+                    }
+                case '550':
+                    {
+                        if (!isNaN(params[key])) {
+                            for (let i = 0; i < params[key]; i++) {
+                                sources.push({
+
+                                    Type: "Bid History",
+                                    TypeCode: 550,
+                                    LoadCount: 123,
+                                    AverageRate: 123
+                                })
+                            }
+                        }
+                        break;
+                    }
+                case '600':
+                    {
+                        if (!isNaN(params[key])) {
+                            for (let i = 0; i < params[key]; i++) {
+                                sources.push({
+                                    Type: "Dark Capacity",
+                                    TypeCode: 600,
+                                    Source: "test",
+                                    SearchCount: 100,
+                                    DestinationPercentage: 30
+                                })
+                            }
+                        }
+                        break;
+                    }
+                case '650':
+                    {
+                        if (!isNaN(params[key])) {
+                            for (let i = 0; i < params[key]; i++) {
+                                sources.push({
+                                    Type: "Dark Capacity",
+                                    TypeCode: 650,
+                                    Source: "test",
+                                    PostCount: 100,
+                                    DestinationPercentage: 30
+                                })
+                            }
+                        }
+                        break;
+                    }
+                case '700':
+                    {
+                        if (!isNaN(params[key])) {
+                            for (let i = 0; i < params[key]; i++) {
+                                sources.push({
+                                    Type: "Prefferred Lane",
+                                    TypeCode: 700,
+                                    LastUpdated: new Date(Date.UTC(96, 1, 2, 3, 4, 5)),
+                                })
+                            }
+                        }
+                        break;
+                    }
+                case '800':
+                    {
+                        if (!isNaN(params[key])) {
+                            for (let i = 0; i < params[key]; i++) {
+                                sources.push({
+                                    Type: "Home based",
+                                    TypeCode: 800,
+                                    Address: {
+                                        Street: "67 Butler Ave.",
+                                        City: "Wakefield",
+                                        State: "MA",
+                                        ZipCode: "21009"
+                                    },
+                                })
+                            }
+                        }
+                        break;
+                    }
+            }
+        }
+
+        return sources;
+    },
     formatResponseForList: (results) => {
         return {
             Response: {

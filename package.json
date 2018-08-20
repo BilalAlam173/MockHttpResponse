@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./tests/Sources"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "homepage": "https://github.com/BilalAlam173/MockHttpResponse#readme",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "chai": "^4.1.2"
   }
 }

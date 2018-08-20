@@ -22,4 +22,7 @@ app.get('/api/log/auditlogs', (req, res) => {
 app.get('/api/office/users', (req, res) => {
     res.json(dataService.formatResponseForList(dataService.getOfficeUsers()));
 });
+app.post('/api/load/sources', (req, res) => {
+    res.json(dataService.formatResponseForList(dataService.getSources()));
+});
 app.listen(process.env.PORT || 3000, () => console.log('Example app listening on port ' + process.env.PORT || 3000))
