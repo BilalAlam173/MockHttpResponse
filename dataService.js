@@ -572,6 +572,17 @@ module.exports = {
             }
         }
     },
+    formatResponseForSources: (results) => {
+        return {
+            Response: {
+                Code: 200,
+                Message: "Success"
+            },
+            data: {
+                Data: results
+            }
+        }
+    },
     formatResponse: (results) => {
         return {
             Response: {
